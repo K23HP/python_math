@@ -25,9 +25,9 @@ class Algebra:
         
         
     def quadratic_x(self) -> tuple:
-        """This function calculates the value of x in second-degree (quadratic) 
-        general formula ax^2 + bx + c = 0. a and b are the coefficients of x. 
-        c is the constant. The general formula for calculating x1 and x2 is 
+        """This function calculates the values of x1 and x2 in second-degree 
+        general (quadratic) formula ax^2 + bx + c = 0. a and b are the coefficients 
+        of x. c is the constant. The general formula for calculating x1 and x2 is 
         x1 = (-b + sqrt(b**2 - (4*a*c))) / (2*a), and 
         x2 = (-b - sqrt(b**2 - (4*a*c))) / (2*a).
 
