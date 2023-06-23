@@ -32,7 +32,7 @@ class Algebra:
         x2 = (-b - sqrt(b**2 - (4*a*c))) / (2*a).
 
         Returns:
-            tuple: x1 and x2
+            tuple: (x1, x2)
         """
         num = (self.b ** 2) - (4 * self.a * self.c)  # num = b^2 - 4ac
         square_root = calc_square_root(num)  # sqrt(num)

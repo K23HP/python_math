@@ -1,8 +1,5 @@
 from my_math.algebra import Algebra
-from my_math.algebra import calc_square_root
 
 algebra = Algebra(a=2, b=7, c=-15, d=13)
-print(algebra.first_degree_x())
-print(algebra.quadratic_x())
-
-print(calc_square_root(-10))
+print(f"x-value in first-degree algebra equation: {algebra.first_degree_x()}")
+print(f"x-value in second-degree algebra equation: {algebra.quadratic_x()}")
