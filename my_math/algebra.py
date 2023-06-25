@@ -1,7 +1,10 @@
 from my_math.square_root import calc_square_root
-
+"""A class used to calculate the values of x in first-degree 
+and second-degree formula"""
 
 class Algebra:
+    """A simple attempt to find the values of x in first-degree and 
+    quadratic (second-degree) formula."""
     def __init__(self, a, b, c, d=0, decimal=2):
         
         self.a = a
@@ -9,7 +12,6 @@ class Algebra:
         self.c = c
         self.d = d
         self.decimal = decimal
-        
         
     def first_degree_x(self) -> float:
         """This function calculates the value of x in first-degree general 
@@ -22,7 +24,6 @@ class Algebra:
             float: The value of x in first degree algebra equation.
         """
         return round((self.d - self.b) / (self.a - self.c), self.decimal)
-        
         
     def quadratic_x(self) -> tuple:
         """This function calculates the values of x1 and x2 in second-degree 
